@@ -167,7 +167,7 @@ body{
     margin-top: 57px;
 }
 .firstImg{
-    width: 33%;
+    width: 33.33%;
     height: 800px;
     background-image: url(./pictures/basketball.jpg);
     background-size: cover;
@@ -187,7 +187,7 @@ body{
     margin-top: 0px;
 }
 #subwrapper-2{
-    width: 33%;
+    width: 33.33%;
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -200,7 +200,41 @@ body{
     background-position: center;
     background-size: cover;
 }
-
+.thirdImg{
+    width: 100%;
+    height: 50%;
+    background-image: url(./pictures/spy.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#subwrapper-3{
+    width: 33.33%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.fourthImg{
+    width: 100%;
+    height: 33.33%;
+    background-image: url(./pictures/us.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.fifthImg{
+    width:100%;
+    height: 33.33%;
+    background-image: url(./pictures/family.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sixthImg{
+    width: 100%;
+    height: 33.33%;
+    background-image: url(./pictures/kid.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 /*
 the following codes do the same but without flex. 
