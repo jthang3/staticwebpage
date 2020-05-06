@@ -87,6 +87,10 @@ body{
     margin: auto;
     text-align: center;
 }
+.sub-flex span{
+    font-size: 10px;
+    vertical-align: text-top;
+}
 .sub-flex h1{
     width: 90%;
     margin: auto;
