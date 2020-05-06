@@ -1,0 +1,274 @@
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+.wrapper {
+    height: 700px;
+    width: 100%;
+    margin: 0px;
+    background-image:url(./pictures/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    color: white;
+}
+.sub-head{
+    background-color: white;
+    opacity: 0.8;
+    color:black;
+    transition-duration: 0.7s;
+}
+.log-in{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 15px 0px 0px;
+}
+.hulu{
+    font-size: 20px;
+    font-family: Montserrat,Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 15px;
+}
+.log-in h3:hover{
+    cursor: pointer;
+    color :#044a69;
+}
+.free-trial{
+    display: none;
+    color: white;
+    margin-left: 60%;
+    background-color: black;
+    font-size: 13px;
+    padding: 2px 2px 10px 2px;
+    height: 35px;
+    text-align: center;
+    margin-top: 10px;
+    width: 15%;
+    border-radius: 3px;
+}
+#free{
+    display: block;
+    color: white;
+    margin-left: 60%;
+    background-color: black;
+    font-size: 13px;
+    padding: 2px 2px 10px 2px;
+    height: 35px;
+    text-align: center;
+    margin-top: 15px;
+    width: 15%;
+    border-radius: 3px;
+}
+
+#free:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+.flex-1{
+    display: flex;
+    flex-direction: column;
+    margin-top:0%;
+    padding-top: 10%;
+    color: white;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-flex{
+    min-width: 40%;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+.sub-flex h1{
+    width: 90%;
+    margin: auto;
+    font-size: 50px;
+}
+#fon{
+    text-align: center;
+    font-size: 20px;
+    width:78%;
+    margin:auto;
+    line-height: 30px;
+}
+.trial{
+    background-color: white;
+    width: 15%;
+    text-align: center;
+    margin:auto;
+    border:1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+}
+.trial h3 a{
+    color:black;
+    text-decoration: none;
+}
+.trial:hover{
+    background-color: skyblue;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.second-wrapper{
+    display:flex;
+    height: 190px;
+    background-image: linear-gradient(to right, black 23%,white);
+    color:white;
+    justify-content: space-between;
+    margin-top:10.5%;
+}
+.fix-me{
+    width: 290px;
+    height: 100%;
+}
+#bundle{
+    color:#044a69;
+    font-size: 12px;
+}
+.second-wrapper div{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 40%;
+}
+.second-wrapper div a{
+    color:#044a69;
+}
+#get-hulu{
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 120%;
+}
+#btn{
+    height:50px;
+    width:120px;
+    margin-top: 4%;
+    margin-right: 2%;
+    border:2px solid black;
+}
+#btn a{
+    color:black;
+    text-decoration: none;
+}
+#btn:hover{
+    cursor: pointer;
+    box-shadow: 0.5px 1.5px 7px rgba(0, 0, 0, 0.9);
+}
+.wrapper-2{
+    display: flex;
+    margin-top: 57px;
+}
+.firstImg{
+    width: 33%;
+    height: 800px;
+    background-image: url(./pictures/basketball.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#basket{
+    font-family: Roboto;
+    color: #9ca6a5;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+#text2{
+    color: #9ca6a5;
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-top: 0px;
+}
+#subwrapper-2{
+    width: 33%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.secondImg{
+    width: 100%;
+    height: 50%;
+    background-image: url(./pictures/groundbreaking.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*
+the following codes do the same but without flex. 
+.fix-me{
+    width: 290px;
+    height: 100%;
+   
+}
+#fon .indent-me{
+    display: inline-block;
+    text-indent: 190%;
+}
+.hbo{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 35px;
+    padding-left: 28%;
+}
+.hbo span{
+    font-size: 10px;
+    vertical-align: super;
+}
+.hbo p{
+    display: inline;
+}*/
+
+/*.font-me{
+    color: white;
+    width: 90%;
+    margin: auto;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-me > h1{
+    font-size: 55px;
+    min-width: 25%;
+    width: 75%;
+    margin: auto;
+    padding-left: 25%
+    
+}
+#fon{
+    display: inline-block;
+    font-size: 25px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 35px;
+    padding-left: 20%;
+}
+#fon p{
+    display: inline;
+}
+/*.hulu, .log-in{
+    position: fixed;
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.log-in{
+    top:25px;
+    right: 25px;
+    font-size: 20px;
+}
+.log-in h3{
+    margin: 0px;
+}*/
