@@ -4,6 +4,8 @@ body{
     background-color: black;
 }
 .wrapper {
+    display: flex;
+    flex-direction: column;
     height: 700px;
     width: 100%;
     margin: 0px;
@@ -64,6 +66,10 @@ body{
     margin-top: 15px;
     width: 15%;
     border-radius: 3px;
+}
+.free-trial h3 a{
+    color: white;
+    text-decoration: none;
 }
 
 #free:hover{
@@ -168,7 +174,6 @@ body{
 }
 .wrapper-2{
     display: flex;
-    margin-top: 57px;
 }
 .firstImg{
     width: 33.33%;
